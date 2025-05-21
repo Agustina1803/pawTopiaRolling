@@ -1,7 +1,7 @@
 /*Declaracion de variables*/
 :root{
-    --colorNavyFooter: #008F7A;
-    --colornavyFooter: #FFFFFF;
+    --BackgrondNavyFooter: #008F7A;
+    --TextnavyFooter: #FFFFFF;
     --colorLinks: #DADDE2;
 }
 /*Estilos para bajar el footer*/
@@ -14,8 +14,8 @@ main{
     flex-grow: 1;
 }
 footer{
-    background-color: var(--colorNavyFooter);
-    color: var(--colornavyFooter);
+    background-color: var(--BackgrondNavyFooter);
+    color: var(--TextnavyFooter);
 }
 a{
     color: var(--colorLinks);
