@@ -21,6 +21,7 @@ a{
     color: var(--TextnavyFooter);
     text-decoration: none;
 }
+/*Estilos del logo*/
 .img-logo{
     width: 30px;
 }
