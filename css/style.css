@@ -18,5 +18,9 @@ footer{
     color: var(--TextnavyFooter);
 }
 a{
-    color: var(--colorLinks);
+    color: var(--TextnavyFooter);
+    text-decoration: none;
+}
+.img-logo{
+    width: 30px;
 }
