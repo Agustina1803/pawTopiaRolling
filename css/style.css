@@ -1,0 +1,18 @@
+/*Declaracion de variables*/
+:root{
+    --colorNavyFooter: #008F7A;
+    --colornavyFooter: #FFFFFF;
+}
+/*Estilos para bajar el footer*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    background-color: var(--colorNavyFooter);
+    color: var(--colornavyFooter);
+}
