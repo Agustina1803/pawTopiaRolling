@@ -9,10 +9,19 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+  
 }
 main{
     flex-grow: 1;
 }
+
+nav{
+    background: var(--BackgrondNavyFooter);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
 footer{
     background-color: var(--BackgrondNavyFooter);
     color: var(--TextnavyFooter);
@@ -24,4 +33,10 @@ a{
 /*Estilos del logo*/
 .img-logo{
     width: 30px;
+}
+
+.img-logo-nav-footer{
+    height: 60px;
+    width: auto;
+    display: block;
 }
