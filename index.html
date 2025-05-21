@@ -21,14 +21,58 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-                <a href="./index.html">
-                    <img src="./assets/img/logo2.png" alt="Logo de PawTopiaRolling" class="img-fluid img-logo-nav-footer">
-                </a>
-
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a href="./index.html">
+            <img
+              src="./assets/img/logo2.png"
+              alt="Logo de PawTopiaRolling"
+              class="img-fluid img-logo-nav-footer"
+            />
+          </a>
+          <form class="d-flex" role="search">
+            <div class="input-group">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="¿Qué estás buscando?"
+                aria-label="Buscar"
+                aria-describedby="button-search"
+              />
+              <button class="btn btn-light" type="submit" id="button-search"> <i class="bi bi-search"></i></button>
+         
+              
             </div>
-        </nav>
+          </form>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarPawTopiaRolling"
+            aria-controls="navbarPawTopiaRolling"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarPawTopiaRolling">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="./pages/nosotros.html" class="nav-link">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a href="./pages/registro.html" class="nav-link">Crear cuenta</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="bi bi-person-circle"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="bi bi-cart2"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main></main>
     <footer class="container-fluid py-4">
@@ -42,8 +86,9 @@
               <h5>
                 PawTopia
                 <img
-                src="https://cdn-icons-png.flaticon.com/128/11569/11569406.png"
-                alt="icono" class="img-logo"
+                  src="https://cdn-icons-png.flaticon.com/128/11569/11569406.png"
+                  alt="icono"
+                  class="img-logo"
                 />
               </h5>
             </a>
@@ -55,11 +100,11 @@
         <div
           class="border border-light d-flex flex-column align-items-start col-12 col-md-6 col-lg-3"
         >
-        <h5>Categorias</h5>
-        <a href="#">Alimento para perros</a>
-        <a href="#">Alimento para Gatos</a>
-        <a href="#"></a>
-        <a href="#"></a>
+          <h5>Categorias</h5>
+          <a href="#">Alimento para perros</a>
+          <a href="#">Alimento para Gatos</a>
+          <a href="#"></a>
+          <a href="#"></a>
         </div>
         <!--Columna guia de productos-->
         <div class="border border-light col-12 col-md-6 col-lg-3">
