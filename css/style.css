@@ -25,3 +25,39 @@ a{
 .img-logo{
     width: 30px;
 }
+
+/* Estilos del slider*/
+
+.previousNext {
+    filter: invert(100%);
+}
+
+.sliderImg {
+  height: 500px;
+  object-fit: cover;
+}
+
+.bg-slider {
+    background-color: var(--BackgrondNavyFooter);
+    opacity: 75%;
+}
+
+.text-slider {
+    color: black;
+    opacity: 100%;
+}
+
+.sliderTextCenter1 {
+  bottom: 50%; /* Ajusta este valor */
+  transform: translateY(50%); /* Centrado vertical */
+}
+
+.sliderTextCenter2 {
+  bottom: 58%; /* Ajusta este valor */
+  transform: translateY(50%); /* Centrado vertical */
+}
+
+.sliderTextCenter3 {
+  bottom: 35%; /* Ajusta este valor */
+  transform: translateY(50%); /* Centrado vertical */
+}
