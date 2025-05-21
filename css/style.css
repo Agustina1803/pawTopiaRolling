@@ -34,6 +34,7 @@ nav{
   align-items: center;
   gap: 8px; 
   color: var(--TextnavyFooter);
+    white-space: nowrap;
 
 }
 
