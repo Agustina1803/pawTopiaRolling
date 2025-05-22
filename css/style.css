@@ -102,7 +102,7 @@ a{
 }
 .video-principal{
     width: 100vw;
-    height: 50vh;           
+    height: 60vh;           
     object-fit: cover;       
     display: block;
 }
@@ -112,10 +112,15 @@ a{
 }
 
 .cardCategoria{
-  border: 10px solid #008F7A;
+  border: 5px solid #2C73D2;
   border-radius: 50px;
 
   background-color:#DADDE2;
+}
+
+.lineaCard{
+  border-top: 1px solid;
+  border-color: #2C73D2;
 }
 
 
@@ -124,6 +129,15 @@ a{
   .navbar-nav .nav-link {
     font-size: 18px;
   }
+}
+
+@media (min-width:992px){
+  .video-principal{
+    
+    height: 80vh;           
+   
+}
+
 }
 
 @media (min-width: 1200px) {
