@@ -54,6 +54,19 @@ a{
     text-decoration: none;
 }
 
+.button-form {
+  background-color: #008f7a;
+  color: #ffffff;
+}
+
+.h1-Form {
+  color: #ffffff;
+}
+
+.backgroundForm{
+    background-color:#DADDE2 ;
+}
+
 /* Estilos del slider*/
 
 .previousNext {
