@@ -54,7 +54,39 @@ a{
     text-decoration: none;
 }
 
+.button-form {
+  background-color: #008f7a;
+  color: #ffffff;
+}
+
+.button-form:hover {
+    background-color: #008f7a;
+    color: #ffffff;
+
+}
+
+
+
+.backgroundForm{
+    background-color:#DADDE2;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+     
+}
+
+.requiredForm{
+color: red;
+}
 /* Estilos del slider*/
+
+.h1-form{
+    background-color: #889FA5;
+}
+
+.container-h1{
+    border-top-left-radius: 8px;
+     border-top-right-radius: 8px;
+}
 
 .previousNext {
     filter: invert(100%);
