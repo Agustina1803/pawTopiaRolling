@@ -67,6 +67,9 @@ a{
     background-color:#DADDE2 ;
 }
 
+.requiredForm{
+color: red;
+}
 /* Estilos del slider*/
 
 .previousNext {
