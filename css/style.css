@@ -111,6 +111,15 @@ a{
   overflow: hidden;
 }
 
+.cardCategoria{
+  border: 10px solid #008F7A;
+  border-radius: 50px;
+
+  background-color:#DADDE2;
+}
+
+
+
 @media (min-width: 768px) {
   .navbar-nav .nav-link {
     font-size: 18px;
@@ -121,4 +130,6 @@ a{
   .navbar-nav .nav-link {
     font-size: 30px;
   }
+
 }
+
