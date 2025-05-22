@@ -122,7 +122,7 @@ color: red;
 
 /*Estilos del logo*/
 .img-logo{
-    width: 30px;
+    width: 60px;
 }
 
 .img-logo-nav-footer {
@@ -131,6 +131,10 @@ color: red;
     display: block;
 }
 
+.mediosDePago{
+  width: 80px;
+  height: 80px;
+}
 
 @media (min-width: 768px) {
   .navbar-nav .nav-link {
