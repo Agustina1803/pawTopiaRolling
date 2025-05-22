@@ -20,10 +20,84 @@
     <title>PawTopiaRolling</title>
   </head>
   <body>
-    <header></header>
-<main>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark">
+        <div class="container-fluid d-flex align-items-center">
+          <a href="./index.html" class="navbar-brand img-logo-nav-footer">
+            <img
+              src="./assets/img/logo2.png"
+              alt="Logo de PawTopiaRolling"
+              class="img-fluid img-logo-nav-footer"
+            />
+          </a>
+          <form
+            class="d-flex flex-grow-1 mx-3"
+            role="search"
+            class="formSearch"
+          >
+            <div class="input-group w-100">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="¿Qué estás buscando?"
+                aria-label="Buscar"
+                aria-describedby="button-search"
+              />
+              <button class="btn btn-light" type="submit" id="button-search">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </form>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarPawTopiaRolling"
+            aria-controls="navbarPawTopiaRolling"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarPawTopiaRolling">
+            <ul class="navbar-nav ms-auto me-lg-5 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="./pages/nosotros.html" class="nav-link text-white"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./pages/contacto.html" class="nav-link text-white"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./pages/registro.html" class="nav-link text-white"
+                  >Crear cuenta</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white"
+                  ><i class="bi bi-person-circle"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">
+                  <i class="bi bi-cart2"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
       <!-- Slider/carrusel -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-indicators">
           <button
             type="button"
@@ -106,7 +180,7 @@
               class="d-block w-100 sliderImg"
               alt="bannerPromocion4"
             />
-                        <div
+            <div
               class="carousel-caption d-md-block text-dark bg-slider rounded-5 sliderTextCenter3"
             >
               <h3 class="display-5 text-slider">¡Cumpleaños de tu mascota!</h3>
@@ -137,8 +211,7 @@
       </div>
       <div class="border"></div>
     </main>
-      <div class="border"></div>
-    </main>
+    <div class="border"></div>
     <footer class="container-fluid py-4">
       <!--En la primera columna se mostraran los links que se encuentran en el navbar-->
       <div class="border border-light row">
