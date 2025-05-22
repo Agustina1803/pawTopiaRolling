@@ -22,15 +22,19 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark">
-        <div class="container-fluid d-flex  align-items-center">
+        <div class="container-fluid d-flex align-items-center">
           <a href="./index.html" class="navbar-brand img-logo-nav-footer">
             <img
               src="./assets/img/logo2.png"
               alt="Logo de PawTopiaRolling"
-              class="img-fluid img-logo-nav-footer "
+              class="img-fluid img-logo-nav-footer"
             />
           </a>
-          <form class="d-flex flex-grow-1 mx-3" role="search" class="formSearch">
+          <form
+            class="d-flex flex-grow-1 mx-3"
+            role="search"
+            class="formSearch"
+          >
             <div class="input-group w-100">
               <input
                 class="form-control"
@@ -39,9 +43,9 @@
                 aria-label="Buscar"
                 aria-describedby="button-search"
               />
-              <button class="btn btn-light" type="submit" id="button-search"> <i class="bi bi-search"></i></button>
-         
-              
+              <button class="btn btn-light" type="submit" id="button-search">
+                <i class="bi bi-search"></i>
+              </button>
             </div>
           </form>
           <button
@@ -58,19 +62,29 @@
           <div class="collapse navbar-collapse" id="navbarPawTopiaRolling">
             <ul class="navbar-nav ms-auto me-lg-5 mb-2 mb-lg-0">
               <li class="nav-item">
-                <a href="./pages/nosotros.html" class="nav-link text-white ">Nosotros</a>
+                <a href="./pages/nosotros.html" class="nav-link text-white"
+                  >Nosotros</a
+                >
               </li>
               <li class="nav-item">
-                <a href="./pages/contacto.html" class="nav-link text-white ">Contacto</a>
+                <a href="./pages/contacto.html" class="nav-link text-white"
+                  >Contacto</a
+                >
               </li>
               <li class="nav-item">
-                <a href="./pages/registro.html" class="nav-link text-white ">Crear cuenta</a>
+                <a href="./pages/registro.html" class="nav-link text-white"
+                  >Crear cuenta</a
+                >
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-white"><i class="bi bi-person-circle "></i></a>
+                <a href="#" class="nav-link text-white"
+                  ><i class="bi bi-person-circle"></i
+                ></a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-white "> <i class="bi bi-cart2"></i></a>
+                <a href="#" class="nav-link text-white">
+                  <i class="bi bi-cart2"></i
+                ></a>
               </li>
             </ul>
           </div>
@@ -78,7 +92,126 @@
       </nav>
     </header>
     <main>
+      <!-- Slider/carrusel -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active bg-dark"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            class="bg-dark"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            class="bg-dark"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            class="bg-dark"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/img/bannerPromocion1.png"
+              class="d-block w-100 sliderImg"
+              alt="bannerPromocion1"
+            />
+            <div
+              class="carousel-caption d-md-block text-dark bg-slider rounded-5"
+            >
+              <h3 class="display-5 text-slider">¡¿Dijiste Promoción?!</h3>
+              <p class="text-slider fs-4">
+                Encuentra las mejores promociones aqui
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/bannerPromocion2.png"
+              class="d-block w-100 sliderImg"
+              alt="bannerPromocion2"
+            />
+            <div
+              class="carousel-caption d-md-block text-dark bg-slider rounded-5 sliderTextCenter1"
+            >
+              <h3 class="display-5 text-slider">¡Nuevo cliente!</h3>
+              <p class="text-slider fs-4">
+                20% OFF en tu primera compra con el código Pawtopia. 💖
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/bannerPromocion3.png"
+              class="d-block w-100 sliderImg"
+              alt="bannerPromocion3"
+            />
+            <div
+              class="carousel-caption d-md-block text-dark bg-slider rounded-5 sliderTextCenter2"
+            >
+              <h3 class="display-5 text-slider">
+                Recoge en tienda y llévate un obsequio sorpresa. 🎁
+              </h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/img/bannerPromocion4.png"
+              class="d-block w-100 sliderImg"
+              alt="bannerPromocion4"
+            />
+            <div
+              class="carousel-caption d-md-block text-dark bg-slider rounded-5 sliderTextCenter3"
+            >
+              <h3 class="display-5 text-slider">¡Cumpleaños de tu mascota!</h3>
+              <p class="text-slider fs-4">
+                Preséntanos su fecha y recibe un cupón de regalo. 🎂
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev previousNext"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next previousNext"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="border"></div>
     </main>
+    <div class="border"></div>
     <footer class="container-fluid py-4">
       <!--En la primera columna se mostraran los links que se encuentran en el navbar-->
       <div class="border border-light row">
