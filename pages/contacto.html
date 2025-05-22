@@ -67,7 +67,9 @@
                 >
               </li>
               <li class="nav-item">
-                <a href="../pages/contacto.html" class="nav-link text-white active"
+                <a
+                  href="../pages/contacto.html"
+                  class="nav-link text-white active"
                   >Contacto</a
                 >
               </li>
@@ -92,7 +94,109 @@
       </nav>
     </header>
     <main>
-
+      <section class="container py-2 mt-4">
+        <h1 class="text-center">Contactanos</h1>
+      </section>
+      <section class="container">
+        <div class="row align-items-start">
+          <div class="col-12 col-md-6 mt-4">
+            <form class="container" autocomplete="off">
+              <div>
+                <label for="inputName" class="form-label">
+                  Nombre y Apellido <span class="requiredForm">*</span></label
+                >
+                <input
+                  type="text"
+                  id="inputName"
+                  placeholder="Jaun Perez"
+                  class="form-control"
+                  required
+                  minlength="10"
+                  maxlength="30"
+                />
+              </div>
+              <div class="my-2">
+                <label for="departamento" class="form-label"
+                  >Departamento<span class="requiredForm">*</span></label
+                >
+                <select
+                  id="departamento"
+                  name="departamento"
+                  class="form-select"
+                  required
+                >
+                  <option value="" disabled selected>
+                    Seleccioná un departamento
+                  </option>
+                  <option value="Burruyacú">Burruyacú</option>
+                  <option value="Capital">Capital</option>
+                  <option value="Chicligasta">Chicligasta</option>
+                  <option value="Cruz Alta">Cruz Alta</option>
+                  <option value="Famaillá">Famaillá</option>
+                  <option value="Graneros">Graneros</option>
+                  <option value="Juan Bautista Alberdi">
+                    Juan Bautista Alberdi
+                  </option>
+                  <option value="La Cocha">La Cocha</option>
+                  <option value="Leales">Leales</option>
+                  <option value="Lules">Lules</option>
+                  <option value="Monteros">Monteros</option>
+                  <option value="Río Chico">Río Chico</option>
+                  <option value="Simoca">Simoca</option>
+                  <option value="Tafí del Valle">Tafí del Valle</option>
+                  <option value="Tafí Viejo">Tafí Viejo</option>
+                  <option value="Trancas">Trancas</option>
+                  <option value="Yerba Buena">Yerba Buena</option>
+                </select>
+              </div>
+              <div>
+                <label for="email" class="form-label"
+                  >Email<span class="requiredForm">*</span></label
+                >
+                <input
+                  type="email"
+                  id="inputEmail"
+                  placeholder="Ej: juanperez@example.com"
+                  required
+                  class="form-control"
+                  minlength="5"
+                  maxlength="320"
+                />
+              </div>
+              <div class="my-2">
+                <label for="inputPhone" class="form-label"
+                  >Telefono <span class="requiredForm">*</span></label
+                >
+                <input
+                  type="tel"
+                  id="inputPhone"
+                  placeholder="381-5333000"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="my-4">
+                <textarea
+                  id="textareaConsulta"
+                  placeholder="Agrega tu consulta de hasta 500 caracteres"
+                  class="form-control"
+                  rows="3"
+                  required
+                  minlength="30"
+                  maxlength="500"
+                ></textarea>
+              </div>
+              <p class="mt-3">
+                Los campos con (<span class="requiredForm">*</span>) son
+                obligatorios
+              </p>
+              <button type="submit" class="btn w-100 button-form mb-3">
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="container-fluid py-4">
       <!--En la primera columna se mostraran los links que se encuentran en el navbar-->
@@ -158,3 +262,4 @@
     </footer>
     <script src="js/bootstrap.min.js"></script>
   </body>
+</html>
