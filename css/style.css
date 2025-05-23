@@ -159,9 +159,53 @@ color: red;
   height: 80px;
 }
 
+/*Estilos ventana modal (Login)*/
+.modal-header{
+  background: var(--BackgrondNavyFooter);
+  height: 100%;
+  width: 100%;
+}
+.img-Login{
+  position: relative;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+}
+.btn-Login{
+  width: 100%;
+  position: relative;
+  top: 25px;
+}
+.link-olvidoContraseña{
+  position: relative;
+  left: 190px;
+  bottom: 180px;
+}
+.btn-Google{
+  background: var(--BackgrondNavyFooter);
+  color: var(--TextnavyFooter);
+  width: 100%;
+  margin-top: 40px;
+}
+.btn-Facebook{
+  background: var(--BackgrondNavyFooter);
+  color: var(--TextnavyFooter);
+  width: 100%;
+  margin-top: 15px;
+}
+/*Quitamos el efecto hover de la clase de boostrap*/
+.btn-Cerrar:hover{
+  background-color: var(--BackgrondNavyFooter);
+  color: var(--TextnavyFooter);
+}
+
 @media (min-width: 768px) {
   .navbar-nav .nav-link {
     font-size: 18px;
+  }
+  .link-olvidoContraseña{
+    left: 280px;
+    bottom: 230px;
   }
 }
 
@@ -178,6 +222,20 @@ color: red;
   .navbar-nav .nav-link {
     font-size: 30px;
   }
+  .link-olvidoContraseña{
+    left: 190px;
+    top: -180px;
+  }
 
 }
 
+/*Media query para dispositivos mobile*/
+@media (max-width: 767px){
+  .img-Login{
+    left: 10px;
+  }
+  .link-olvidoContraseña{
+    left: 150px;
+    bottom: 230px;
+  }
+}
