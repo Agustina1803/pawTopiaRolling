@@ -159,6 +159,20 @@ color: red;
   height: 80px;
 }
 
+/*Estilos ventana modal (Login)*/
+.modal-header{
+  background: #7ae6ee;
+}
+.img-Login{
+  position: relative;
+  left: 120px;
+}
+.btn-Login{
+  width: 100%;
+}
+
+
+
 @media (min-width: 768px) {
   .navbar-nav .nav-link {
     font-size: 18px;
