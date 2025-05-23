@@ -135,6 +135,7 @@ color: red;
     height: 60vh;           
     object-fit: cover;       
     display: block;
+
 }
 .contenedorVideo{
   max-width: 100vw;
