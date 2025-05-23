@@ -315,56 +315,68 @@
               </div>
               <div class="mt-2 col-12 col-md-12 col-lg-6">
                 <h4 class="text-center">Inicio de Sesión</h4>
-            <!--Formulario-->
-            <form id="formLogin">
-              <div class="mb-3 mt-2">
-                <label for="Email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="Email"
-                  minlength="10"
-                  maxlength="60"
-                  placeholder="juanperez@gmail.com"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <label for="Contraseña" class="form-label">Contraseña</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="Contreña"
-                  minlength="10"
-                  maxlength="60"
-                  placeholder="juanperez@gmail.com"
-                  required
-                  />
-                </div>
-                <button type="submit" form="formLogin" class="btn button-form btn-Login">
-                  Iniciar Sesión
-                </button>
-                <button type="button" class="btn button-form btn-Google">
-                  Continuar con Google
-                  <i class="bi bi-google ms-1"></i>
-                </button>
-                <button type="button" class="btn button-form btn-Facebook">
-                  Continuar con Facebook
-                  <i class="bi bi-facebook ms-1"></i>
-                </button>
-            </form>
-            <p>
-              <a
-                href="pages/error404.html"
-                class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-olvidoContraseña"
-                >¿Olvidaste tu contraseña?</a
-              >
-            </p>
-          </div>
+                <!--Formulario-->
+                <form id="formLogin">
+                  <div class="mb-3 mt-2">
+                    <label for="Email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="Email"
+                      minlength="10"
+                      maxlength="60"
+                      placeholder="juanperez@gmail.com"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="Contraseña" class="form-label"
+                      >Contraseña</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="Contreña"
+                      minlength="10"
+                      maxlength="60"
+                      placeholder="juanperez@gmail.com"
+                      required
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    form="formLogin"
+                    class="btn button-form btn-Login"
+                  >
+                    Iniciar Sesión
+                  </button>
+                  <button type="button" class="btn button-form btn-Google">
+                    Continuar con Google
+                    <i class="bi bi-google ms-1"></i>
+                  </button>
+                  <button type="button" class="btn button-form btn-Facebook">
+                    Continuar con Facebook
+                    <i class="bi bi-facebook ms-1"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-Facebook btn-Cerrar d-block d-lg-none"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                </form>
+                <p>
+                  <a
+                    href="pages/error404.html"
+                    class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-olvidoContraseña"
+                    >¿Olvidaste tu contraseña?</a
+                  >
+                </p>
               </div>
             </div>
-          <div class="modal-footer border border-light">
           </div>
+          <div class="modal-footer border border-light"></div>
         </div>
       </div>
     </div>
