@@ -170,6 +170,11 @@ color: red;
 .btn-Login{
   width: 100%;
 }
+.link-olvidoContraseña{
+  position: relative;
+  left: 280px;
+  bottom: 10px;
+}
 
 
 
@@ -195,3 +200,12 @@ color: red;
 
 }
 
+/*Media query para dispositivos mobile*/
+@media (max-width: 767px){
+  .img-Login{
+    left: 100px;
+  }
+  .link-olvidoContraseña{
+    left: 150px;
+  }
+}
