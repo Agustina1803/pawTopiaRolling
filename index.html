@@ -300,17 +300,21 @@
     </footer>
     <!--Maqueteado de ventana modal (Login)-->
     <div class="modal" id="modalLogin" tabindex="-1">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg">
         <div class="modal-content">
-          <div class="modal-header">
-            <img
-              src="assets/img/logo2.png"
-              alt="Logo Pawtopia"
-              class="w-50 img-Login"
-            />
-          </div>
           <div class="modal-body">
-            <h4 class="text-center">Inicio de Sesión</h4>
+            <div class="row">
+              <div class="p-0 col-12 col-md-12 col-lg-6">
+                <div class="modal-header">
+                  <img
+                    src="assets/img/logo2.png"
+                    alt="Logo Pawtopia"
+                    class="img-Login"
+                  />
+                </div>
+              </div>
+              <div class="mt-2 col-12 col-md-12 col-lg-6">
+                <h4 class="text-center">Inicio de Sesión</h4>
             <!--Formulario-->
             <form>
               <div class="mb-3 mt-2">
@@ -335,19 +339,31 @@
                   maxlength="60"
                   placeholder="juanperez@gmail.com"
                   required
-                />
-              </div>
+                  />
+                </div>
+                <button type="button" class="btn button-form btn-Login">
+                  Iniciar Sesión
+                </button>
+                <button type="button" class="btn button-form btn-Google">
+                  Continuar con Google
+                  <i class="bi bi-google ms-1"></i>
+                </button>
+                <button type="button" class="btn button-form btn-Facebook">
+                  Continuar con Facebook
+                  <i class="bi bi-facebook ms-1"></i>
+                </button>
             </form>
             <p>
-              <a href="pages/error404.html" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-olvidoContraseña"
+              <a
+                href="pages/error404.html"
+                class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-olvidoContraseña"
                 >¿Olvidaste tu contraseña?</a
               >
             </p>
           </div>
+              </div>
+            </div>
           <div class="modal-footer border border-light">
-            <button type="button" class="btn button-form btn-Login mb-5">
-              Iniciar Sesión
-            </button>
           </div>
         </div>
       </div>
