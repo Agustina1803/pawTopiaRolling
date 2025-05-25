@@ -155,6 +155,23 @@ color: red;
   border-color: #008f7a;
 }
 
+.card-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 32px 16px;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 50%;
+  scroll-behavior: smooth;
+}
+
+.grillaScroll {
+  flex: 0 0 auto;
+  width: 80%; 
+  scroll-snap-align: center;
+  min-width: 250px; 
+  max-width: 300px;
+}
 
 .mediosDePago{
   width: 80px;
