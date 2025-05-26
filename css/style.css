@@ -135,6 +135,7 @@ color: red;
     height: 60vh;           
     object-fit: cover;       
     display: block;
+
 }
 .contenedorVideo{
   max-width: 100vw;
@@ -142,17 +143,35 @@ color: red;
 }
 
 .cardCategoria{
-  border: 5px solid #2C73D2;
+  border: 5px solid #008f7a;
   border-radius: 50px;
 
   background-color:#DADDE2;
 }
 
 .lineaCard{
+  margin-top: 30px;
   border-top: 1px solid;
-  border-color: #2C73D2;
+  border-color: #008f7a;
 }
 
+.card-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 32px 16px;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 50%;
+  scroll-behavior: smooth;
+}
+
+.grillaScroll {
+  flex: 0 0 auto;
+  width: 80%; 
+  scroll-snap-align: center;
+  min-width: 250px; 
+  max-width: 300px;
+}
 
 .mediosDePago{
   width: 80px;
@@ -217,8 +236,7 @@ color: red;
 @media (min-width:992px){
   .video-principal{
     
-    height: 80vh;           
-   
+    height: 80vh;
 }
 
 }
