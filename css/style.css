@@ -308,6 +308,9 @@ color: red;
     left: 20px;
     height: 100px;
   }
+  .publicidadProplan{
+    display: none;
+  }
 }
 
 /* Media query para dispositivos medianos */
