@@ -236,6 +236,35 @@ color: red;
   color: var(--BackgrondNavyFooter);
 }
 
+/*Estilos para la publicidad*/
+.img-publicidad{
+  position: relative;
+  left: 50px;
+  width: 90%;
+  height: 220px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.img-publicidad:hover{
+  transform: scale(1.1);
+}
+.publicidadProplan{
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 1s;
+  animation: rebote 2s ease-in-out infinite;
+}
+@keyframes rebote{
+  0%,100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  
 /*Estilo para los comentarios*/
 .box-comentarios{
   background: #DADDE2;
@@ -283,7 +312,7 @@ textarea{
     left: 190px;
     top: -180px;
   }
-
+  
 }
 
 /*Media query para dispositivos mobile*/
@@ -295,6 +324,13 @@ textarea{
     left: 150px;
     bottom: 230px;
   }
+  .img-publicidad{
+    left: 20px;
+    height: 100px;
+  }
+  .publicidadProplan{
+    display: none;
+  }
 }
 
 /* Media query para dispositivos medianos */
@@ -305,5 +341,10 @@ textarea{
     height: 20vh;
     width: 100%;
   }
-
+  .img-publicidad{
+    left: 30px;
+  }
+  .publicidadProplan{
+    width: 100%;  
+}
 }
