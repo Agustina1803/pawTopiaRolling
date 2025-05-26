@@ -236,6 +236,12 @@ color: red;
   color: var(--BackgrondNavyFooter);
 }
 
+/*Estilo para los comentarios*/
+.box-comentarios{
+  background: ;
+}
+
+
 @media (min-width: 768px) {
   .navbar-nav .nav-link {
     font-size: 18px;
