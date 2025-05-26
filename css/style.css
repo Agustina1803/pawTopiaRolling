@@ -149,6 +149,13 @@ color: red;
   background-color:#DADDE2;
 }
 
+.cardCategoriaIndex{
+  border: 5px solid #43655A;
+  border-radius: 50px;
+
+  background-color:#DADDE2;
+}
+
 .lineaCard{
   margin-top: 30px;
   border-top: 1px solid;
@@ -218,6 +225,11 @@ color: red;
   color: var(--TextnavyFooter);
 }
 
+.imgCuadrada{
+  overflow: hidden;
+  height:40vh;
+  width: 100%;
+}
 @media (min-width: 768px) {
   .navbar-nav .nav-link {
     font-size: 18px;
