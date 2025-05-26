@@ -276,10 +276,11 @@ color: red;
 
 /* Media query para dispositivos medianos */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media ((width >= 768px) and (width <= 991px)) {
   .imgCuadrada {
     overflow: hidden;
-    height: 25vh;
+    height: 20vh;
     width: 100%;
   }
+
 }
