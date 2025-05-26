@@ -149,6 +149,13 @@ color: red;
   background-color:#DADDE2;
 }
 
+.cardCategoriaIndex{
+  border: 5px solid #43655A;
+  border-radius: 50px;
+
+  background-color:#DADDE2;
+}
+
 .lineaCard{
   margin-top: 30px;
   border-top: 1px solid;
@@ -218,6 +225,12 @@ color: red;
   color: var(--TextnavyFooter);
 }
 
+.imgCuadrada{
+  overflow: hidden;
+  height:40vh;
+  width: 100%;
+}
+
 /* Clases para los detalles de los items */
 .text-primario {
   color: var(--BackgrondNavyFooter);
@@ -261,4 +274,15 @@ color: red;
     left: 150px;
     bottom: 230px;
   }
+}
+
+/* Media query para dispositivos medianos */
+
+@media ((width >= 768px) and (width <= 991px)) {
+  .imgCuadrada {
+    overflow: hidden;
+    height: 20vh;
+    width: 100%;
+  }
+
 }
