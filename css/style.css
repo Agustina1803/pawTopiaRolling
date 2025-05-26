@@ -236,6 +236,24 @@ color: red;
   color: var(--BackgrondNavyFooter);
 }
 
+/*Estilos para la publicidad*/
+.img-publicidad{
+  position: relative;
+  left: 50px;
+  width: 90%;
+  height: 220px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.img-publicidad:hover{
+  transform: scale(1.1);
+}
+
+
+
 @media (min-width: 768px) {
   .navbar-nav .nav-link {
     font-size: 18px;
@@ -262,7 +280,7 @@ color: red;
     left: 190px;
     top: -180px;
   }
-
+  
 }
 
 /*Media query para dispositivos mobile*/
@@ -274,6 +292,10 @@ color: red;
     left: 150px;
     bottom: 230px;
   }
+  .img-publicidad{
+    left: 20px;
+    height: 100px;
+  }
 }
 
 /* Media query para dispositivos medianos */
@@ -284,5 +306,7 @@ color: red;
     height: 20vh;
     width: 100%;
   }
-
+  .img-publicidad{
+    left: 30px;
+  }
 }
