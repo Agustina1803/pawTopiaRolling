@@ -231,7 +231,10 @@ color: red;
   width: 100%;
 }
 
-
+/* Clases para los detalles de los items */
+.text-primario {
+  color: var(--BackgrondNavyFooter);
+}
 
 @media (min-width: 768px) {
   .navbar-nav .nav-link {
@@ -246,8 +249,7 @@ color: red;
 @media (min-width:992px){
   .video-principal{
     
-    height: 80vh;           
-   
+    height: 80vh;
 }
 
 }
