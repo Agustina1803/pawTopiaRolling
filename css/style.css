@@ -285,6 +285,16 @@ textarea{
   background: var(--BackgrondNavyFooter);
   color: var(--TextnavyFooter);
 }
+.links{
+  text-decoration: none;
+  margin: 0;
+  position: relative;
+  right: 30px;
+  bottom: 35px;
+}
+.links li{
+  list-style: none;
+}
 
 @media (min-width: 768px) {
   .navbar-nav .nav-link {
@@ -316,11 +326,7 @@ textarea{
   position: relative;
   bottom: 25px;
   right: 30px;
-}
-.links{
-  
-}
-  
+} 
 }
 
 /*Media query para dispositivos mobile*/
@@ -338,6 +344,16 @@ textarea{
   }
   .publicidadProplan{
     display: none;
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* top: 5px; */
+    bottom: 15px;
+    left: -15px;
   }
 }
 
@@ -358,5 +374,6 @@ textarea{
 .img-logo{
   position: relative;
   right: 40px;
+  bottom: 25px;
 }
 }
