@@ -21,15 +21,17 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark">
+          <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark">
         <div class="container-fluid d-flex align-items-center">
-          <a href="../index.html" class="navbar-brand img-logo-nav-footer">
+          <div>
+              <a href="../index.html" class="navbar-brand img-logo-nav-footer">
             <img
               src="../assets/img/logo2.png"
               alt="Logo de PawTopiaRolling"
-              class="img-fluid img-logo-nav-footer"
+              class="img-fluid img-logo-nav-footer "
             />
           </a>
+          </div>
           <form
             class="d-flex flex-grow-1 mx-3"
             role="search"
@@ -42,6 +44,9 @@
                 placeholder="¿Qué estás buscando?"
                 aria-label="Buscar"
                 aria-describedby="button-search"
+                required
+                minlength="4"
+                maxlength="100"
               />
               <button class="btn btn-light" type="submit" id="button-search">
                 <i class="bi bi-search"></i>
@@ -62,17 +67,17 @@
           <div class="collapse navbar-collapse" id="navbarPawTopiaRolling">
             <ul class="navbar-nav ms-auto me-lg-5 mb-2 mb-lg-0">
               <li class="nav-item">
-                <a href="nosotros.html" class="nav-link text-white"
+                <a href="../pages/nosotros.html" class="nav-link text-white"
                   >Nosotros</a
                 >
               </li>
               <li class="nav-item">
-                <a href="contacto.html" class="nav-link text-white"
+                <a href="../pages/contacto.html" class="nav-link text-white"
                   >Contacto</a
                 >
               </li>
               <li class="nav-item">
-                <a href="registro.html" class="nav-link text-white"
+                <a href="../pages/registro.html" class="nav-link text-white"
                   >Crear cuenta</a
                 >
               </li>
@@ -86,7 +91,7 @@
                 ></a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-white">
+                <a href="../pages/carrito.html" class="nav-link text-white">
                   <i class="bi bi-cart2"></i
                 ></a>
               </li>
@@ -178,6 +183,88 @@
       </div>
       <p class="text-center mt-3">&copy; Todos los derechos reservados 2025</p>
     </footer>
+     <!--Maqueteado de ventana modal (Login)-->
+    <div class="modal" id="modalLogin" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row">
+              <div class="p-0 col-12 col-md-12 col-lg-6">
+                <div class="modal-header">
+                  <img
+                    src="../assets/img/logo2.png"
+                    alt="Logo Pawtopia"
+                    class="img-Login"
+                  />
+                </div>
+              </div>
+              <div class="mt-2 col-12 col-md-12 col-lg-6">
+                <h4 class="text-center">Inicio de Sesión</h4>
+                <!--Formulario-->
+                <form id="formLogin">
+                  <div class="mb-3 mt-2">
+                    <label for="Email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="Email"
+                      minlength="10"
+                      maxlength="60"
+                      placeholder="juanperez@gmail.com"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="Contraseña" class="form-label"
+                      >Contraseña</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="Contreña"
+                      minlength="10"
+                      maxlength="60"
+                      placeholder="juanperez@gmail.com"
+                      required
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    form="formLogin"
+                    class="btn button-form btn-Login"
+                  >
+                    Iniciar Sesión
+                  </button>
+                  <button type="button" class="btn button-form btn-Google">
+                    Continuar con Google
+                    <i class="bi bi-google ms-1"></i>
+                  </button>
+                  <button type="button" class="btn button-form btn-Facebook">
+                    Continuar con Facebook
+                    <i class="bi bi-facebook ms-1"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-Facebook btn-Cerrar d-block d-lg-none"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                </form>
+                <p>
+                  <a
+                    href="../pages/error404.html"
+                    class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link-olvidoContraseña"
+                    >¿Olvidaste tu contraseña?</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer border border-light"></div>
+        </div>
+      </div>
+    </div>
     <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
