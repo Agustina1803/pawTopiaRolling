@@ -23,13 +23,15 @@
     <header>
       <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark">
         <div class="container-fluid d-flex align-items-center">
-          <a href="./index.html" class="navbar-brand img-logo-nav-footer">
+          <div>
+              <a href="./index.html" class="navbar-brand img-logo-nav-footer">
             <img
               src="./assets/img/logo2.png"
               alt="Logo de PawTopiaRolling"
-              class="img-fluid img-logo-nav-footer"
+              class="img-fluid img-logo-nav-footer "
             />
           </a>
+          </div>
           <form
             class="d-flex flex-grow-1 mx-3"
             role="search"
@@ -42,6 +44,9 @@
                 placeholder="¿Qué estás buscando?"
                 aria-label="Buscar"
                 aria-describedby="button-search"
+                required
+                minlength="4"
+                maxlength="100"
               />
               <button class="btn btn-light" type="submit" id="button-search">
                 <i class="bi bi-search"></i>
@@ -78,7 +83,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  href="#"
+                  href="./pages/registro.html"
                   class="nav-link text-white"
                   data-bs-toggle="modal"
                   data-bs-target="#modalLogin"
@@ -86,7 +91,7 @@
                 ></a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link text-white">
+                <a href="./pages/carrito.html" class="nav-link text-white">
                   <i class="bi bi-cart2"></i
                 ></a>
               </li>
