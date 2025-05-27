@@ -34,7 +34,7 @@ nav{
   align-items: center;
   gap: 8px; 
   color: var(--TextnavyFooter);
-    white-space: nowrap;
+  white-space: nowrap;
 
 }
 
@@ -126,10 +126,10 @@ color: red;
 }
 
 .img-logo-nav-footer {
-    height: 60px;
-    width: auto;
-    display: block;
+    width: 150px;
+    
 }
+
 .video-principal{
     width: 100vw;
     height: 60vh;           
@@ -308,7 +308,7 @@ textarea{
     font-size: 18px;
   }
 
-    .img-Login{
+  .img-Login{
     left: 10px;
   }
   .link-olvidoContraseña{
@@ -353,7 +353,7 @@ textarea{
     bottom: 25px;
   }
   .navbar-nav .nav-link {
-    font-size: 18px;
+    font-size: 20px;
   }
   .link-olvidoContraseña {
     left: 280px;
@@ -367,7 +367,7 @@ textarea{
     height: 80vh;
   }
   .navbar-nav .nav-link {
-    font-size: 18px;
+    font-size: 15px;
   }
   .link-olvidoContraseña {
     left: 280px;
@@ -379,7 +379,7 @@ textarea{
 /*  Dispositivos extra grandes (desde 1200px en adelante) */
 @media (min-width: 1200px) {
   .navbar-nav .nav-link {
-    font-size: 30px;
+    font-size: 25px;
   }
   .link-olvidoContraseña{
     left: 190px;
