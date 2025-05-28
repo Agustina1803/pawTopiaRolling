@@ -149,6 +149,12 @@ color: red;
   background-color:#DADDE2;
 }
 
+.cardCategoria:hover{
+  transform: scale(105%);
+  transition: 500ms;
+  cursor: pointer;
+}
+
 .cardCategoriaIndex{
   border: 5px solid #43655A;
   border-radius: 50px;
