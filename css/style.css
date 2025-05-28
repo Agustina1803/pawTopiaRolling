@@ -145,7 +145,7 @@ color: red;
 .cardCategoria{
   border: 5px solid #008f7a;
   border-radius: 50px;
-
+  height: 100%;
   background-color:#DADDE2;
 }
 
@@ -375,6 +375,20 @@ textarea{
     left: 280px;
     bottom: 230px;
   }
+
+  .cardCategoria{
+  border: 5px solid #008f7a;
+  border-radius: 50px;
+  height: 550px;
+  width: 90%;
+  background-color:#DADDE2;
+  margin: auto;
+}
+.imgCategoria{
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
   
 }
 
@@ -392,4 +406,18 @@ textarea{
     right: 40px;
     bottom: 25px;
   }
+
+  .cardCategoria{
+  border: 5px solid #008f7a;
+  border-radius: 50px;
+  height: 550px;
+  width: 80%;
+  background-color:#DADDE2;
+  margin: auto;
+}
+.imgCategoria{
+  margin: auto;
+  height: 250px;
+  width: 250px;
+}
 }
