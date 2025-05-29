@@ -196,6 +196,12 @@ color: red;
   margin: 0;
 }
 
+.cardGrilla:hover{
+  transform: scale(105%);
+  transition: 500ms;
+  cursor: pointer;
+}
+
 .card-scroll {
   display: flex;
   overflow-x: auto;
