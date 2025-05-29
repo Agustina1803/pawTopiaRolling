@@ -425,14 +425,18 @@ textarea{
   width: 200px;
 }
 
-  .card-scroll {
-    flex-wrap: wrap;
-    overflow-x: hidden;
-    justify-content: space-between;
+.card-scroll {
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  gap: 16px;
+  padding: 32px 16px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
   }
 
 
-  .cardGrilla{
+.cardGrilla{
   width: 23%;
   margin: 0;
 }
