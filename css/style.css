@@ -279,11 +279,9 @@ color: red;
   border-radius: 15px;
 }
 
-
 .carrito{
   width: 150px;
 }
-
 textarea{
   width: 100%;
   height: 100px;
@@ -340,6 +338,18 @@ textarea{
     bottom: 15px;
     left: -15px;
   }
+}
+.teamImg{
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+}
+
+.tituloNosotros{
+  color: #008F7A;
 }
 
 /* Dispositivos medianos (tablets: de 768px a 991px) */
