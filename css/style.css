@@ -130,6 +130,26 @@ color: red;
     
 }
 
+.numeroCarrito {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 2px 6px;
+  font-weight: bold;
+  min-width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  transform: translate(50%, -50%);
+}
+
+
 .video-principal{
     width: 100vw;
     height: 60vh;           
