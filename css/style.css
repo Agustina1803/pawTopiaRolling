@@ -145,8 +145,14 @@ color: red;
 .cardCategoria{
   border: 5px solid #008f7a;
   border-radius: 50px;
-
+  height: 100%;
   background-color:#DADDE2;
+}
+
+.cardCategoria:hover{
+  transform: scale(105%);
+  transition: 500ms;
+  cursor: pointer;
 }
 
 .cardCategoriaIndex{
@@ -361,6 +367,11 @@ textarea{
     left: 280px;
     bottom: 230px;
   }
+  .imgCategoria{
+  margin: auto;
+  
+  width: 100%;
+}
 }
 
 /* Dispositivos grandes (escritorio: desde 992px a 1199px) */
@@ -375,6 +386,20 @@ textarea{
     left: 280px;
     bottom: 230px;
   }
+
+  .cardCategoria{
+  border: 5px solid #008f7a;
+  border-radius: 50px;
+  height: 500px;
+  width: 90%;
+  background-color:#DADDE2;
+  margin: auto;
+}
+.imgCategoria{
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
   
 }
 
@@ -392,4 +417,18 @@ textarea{
     right: 40px;
     bottom: 25px;
   }
+
+  .cardCategoria{
+  border: 5px solid #008f7a;
+  border-radius: 50px;
+  height: 500px;
+  width: 78%;
+  background-color:#DADDE2;
+  margin: auto;
+}
+.imgCategoria{
+  margin: auto;
+  height: 220px;
+  width: 220px;
+}
 }
