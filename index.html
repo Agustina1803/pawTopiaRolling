@@ -24,7 +24,7 @@
       <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark">
         <div class="container-fluid d-flex align-items-center">
           <div>
-              <a href="./index.html" class="navbar-brand img-logo-nav-footer">
+              <a href="./index.html" class="navbar-brand img-logo-nav-footer" id="inicio">
             <img
               src="./assets/img/logo2.png"
               alt="Logo de PawTopiaRolling"
@@ -240,8 +240,8 @@
             </div>
             <div class="card-footer py-3">
               <div class="d-flex justify-content-around">
-                <a href="" class="btn button-form">Comprar</a>
-                <a href="" class="btn button-form">Ver más</a>
+                <a href="pages/carrito.html" class="btn button-form">Comprar</a>
+                <a href="pages/error404.html" class="btn button-form">Ver más</a>
               </div>
             </div>
           </div>
@@ -264,8 +264,8 @@
             </div>
             <div class="card-footer py-3">
               <div class="d-flex justify-content-around">
-                <a href="" class="btn button-form">Comprar</a>
-                <a href="" class="btn button-form">Ver más</a>
+                <a href="pages/carrito.html" class="btn button-form">Comprar</a>
+                <a href="pages/error404.html" class="btn button-form">Ver más</a>
               </div>
             </div>
           </div>
@@ -285,8 +285,8 @@
             </div>
             <div class="card-footer py-3">
               <div class="d-flex justify-content-around">
-                <a href="" class="btn button-form">Comprar</a>
-                <a href="" class="btn button-form">Ver más</a>
+                <a href="pages/carrito.html" class="btn button-form">Comprar</a>
+                <a href="pages/error404.html" class="btn button-form">Ver más</a>
               </div>
             </div>
           </div>
@@ -307,8 +307,8 @@
             </div>
             <div class="card-footer py-3">
               <div class="d-flex justify-content-around">
-                <a href="" class="btn button-form">Comprar</a>
-                <a href="" class="btn button-form">Ver más</a>
+                <a href="pages/carrito.html" class="btn button-form">Comprar</a>
+                <a href="pages/error404.html" class="btn button-form">Ver más</a>
               </div>
             </div>
           </div>
@@ -316,11 +316,13 @@
 
         <!--Maqueteado de la publicidad-->
         <aside>
-          <img
-            src="assets/img/PublicidadAnimales1.jpg"
-            class="img-publicidad"
-            alt="Publicidad alimento para perros"
-          />
+          <a href="https://www.pedigree.com.ar/" target="_blank">
+            <img
+              src="assets/img/PublicidadAnimales1.jpg"
+              class="img-publicidad"
+              alt="Publicidad alimento para perros"
+            />
+          </a>
         </aside>
 
         <article class="my-3 row justify-content-center">
@@ -387,11 +389,13 @@
         </article>
         <!--Segunda Publicidad-->
         <aside class="d-flex justify-content-center">
-          <img
-            src="assets/img/PublicidadAnimales2.webp"
-            alt="Publicidad alimento para perro"
-            class="publicidadProplan"
-          />
+          <a href="https://www.purina.com.ar/purina" target="_blank">
+            <img
+              src="assets/img/PublicidadAnimales2.webp"
+              alt="Publicidad alimento para perro"
+              class="publicidadProplan"
+            />
+          </a>
         </aside>
       </section>
     </main>
@@ -408,20 +412,20 @@
             </a>
           </div>
           <ul class="links">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nuestros Clientes</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Acerca de nosotros</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="pages/error404.html">Nuestros Clientes</a></li>
+            <li><a href="pages/contacto.html">Contacto</a></li>
+            <li><a href="pages/nosotros.html">Acerca de nosotros</a></li>
           </ul>
         </div>
         <div
           class="d-flex flex-column align-items-center align-items-md-start gap-1 mt-0 col-12 col-md-6 col-lg-3"
         >
           <h5 class="mt-1 mt-md-0">Categorias</h5>
-          <a href="#">Alimento para perros</a>
-          <a href="#">Alimento para Gatos</a>
-          <a href="#">Accesorios para Peces</a>
-          <a href="#">Productos Destacados</a>
+          <a href="pages/categoriaPerro.html">Alimento para perros</a>
+          <a href="pages/categoriaGato.html">Alimento para Gatos</a>
+          <a href="pages/categoriaPeces.html">Accesorios para Peces</a>
+          <a href="pages/error404.html">Productos Destacados</a>
         </div>
         <!--Columna guia de productos-->
         <div
@@ -453,10 +457,10 @@
           <div
             class="d-flex justify-content-center justify-content-md-start w-100 mt-md-1 mt-2 gap-2"
           >
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-tiktok"></i>
+            <a href="pages/error404.html"><i class="bi bi-facebook"></i></a>
+            <a href="pages/error404.html"><i class="bi bi-instagram"></i></a>
+            <a href="pages/error404.html"><i class="bi bi-twitter"></i></a>
+            <a href="pages/error404.html"><i class="bi bi-tiktok"></i></a>
           </div>
           <div class="d-flex flex-column m-0">
             <h6 class="mt-4">Nuestros medios de pago:</h6>
@@ -529,14 +533,18 @@
                   >
                     Iniciar Sesión
                   </button>
-                  <button type="button" class="btn button-form btn-Google">
-                    Continuar con Google
-                    <i class="bi bi-google ms-1"></i>
-                  </button>
-                  <button type="button" class="btn button-form btn-Facebook">
-                    Continuar con Facebook
-                    <i class="bi bi-facebook ms-1"></i>
-                  </button>
+                  <a href="pages/error404.html">
+                    <button type="button" class="btn button-form btn-Google">
+                      Continuar con Google
+                      <i class="bi bi-google ms-1"></i>
+                    </button>
+                  </a>
+                  <a href="pages/error404.html">
+                    <button type="button" class="btn button-form btn-Facebook">
+                      Continuar con Facebook
+                      <i class="bi bi-facebook ms-1"></i>
+                    </button>
+                  </a>
                   <button
                     type="button"
                     class="btn btn-Facebook btn-Cerrar d-block d-lg-none"
