@@ -367,6 +367,11 @@ textarea{
     left: 280px;
     bottom: 230px;
   }
+  .imgCategoria{
+  margin: auto;
+  
+  width: 100%;
+}
 }
 
 /* Dispositivos grandes (escritorio: desde 992px a 1199px) */
